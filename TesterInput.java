@@ -19,7 +19,7 @@ public class TesterInput {
                 int number = g.nextInt();
                 System.out.println(" Score ");
                 int score = g.nextInt();
-                Student s = new Student (name, major, age, number, score);
+                Student s = new Student (name, age, number, score, major);
                 s.print();
                 break;
             case 2:
@@ -27,12 +27,12 @@ public class TesterInput {
                 System.out.println(" Name: ");
                 name = g.nextLine();
                 System.out.println(" Subject ");
-                int subject = g.nextInt();
+                String subject = g.nextLine();
                 System.out.println(" Age: ");
                 age = g.nextInt();
-                System.err.println(" Hours Worked: ");
+                System.out.println(" Hours Worked: ");
                 int hoursWorked = g.nextInt();
-                PartTime z = new PartTime(name, age, subject, hoursworked);
+                PartTime z = new PartTime(name, age, subject, hoursWorked);
                 z.print();
                 break;
         }

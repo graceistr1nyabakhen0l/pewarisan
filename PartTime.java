@@ -1,4 +1,4 @@
-public class PartTime extends Person {
+public class PartTime extends Teacher {
     private int hoursWorked;
 
     public PartTime() {
@@ -6,8 +6,8 @@ public class PartTime extends Person {
         hoursWorked =30;
     }
 
-    public PartTime (String name, int age, int number, String subject, int anualSalary, String unit) {
-        super(name, age);
+    public PartTime (String name, int age, String subject, int hoursWorked) {
+        super(name, age, subject);
         this.hoursWorked = hoursWorked;
     }
 

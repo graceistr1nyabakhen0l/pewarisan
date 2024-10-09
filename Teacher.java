@@ -6,7 +6,7 @@ public Teacher() {
     subject = "English";
 }
 
-public Teacher (String name, int age, int number, int score, String major) {
+public Teacher (String name, int age, String subject) {
     super(name,age);
     this.subject = subject;
 }

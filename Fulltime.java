@@ -1,5 +1,3 @@
-import javax.sound.sampled.SourceDataLine;
-
 public class Fulltime extends Person {
     private int anualSalary;
     private String unit;
